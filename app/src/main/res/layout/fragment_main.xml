@@ -1,0 +1,21 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.themartinsierra.popularmovieapp_stage2.MainActivityFragment">
+    <GridView
+        tools:text="Gridview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/vertical_spacing"
+        android:horizontalSpacing="@dimen/horizontal_spacing"
+        android:stretchMode="columnWidth"
+        tools:context=".MainActivity$MainActivityFragment"
+        android:id="@+id/gridview_movies">
+    </GridView>
+</FrameLayout>

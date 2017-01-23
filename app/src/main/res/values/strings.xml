@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PopularMovieApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <!-- Key name for Movie informational grid preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_gridtype_key" translatable="false">movie</string>
+    <!-- Label for the Popular Movie List Type preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_label">Popular Movie List Type</string>
+    <!-- Value in SharedPreferences for most_popular movie list option [CHAR LIMIT=NONE] -->
+    <string name="pref_value_most_popular" translatable="false">popular</string>
+    <!-- Label for Most Popular option in movie list preference [CHAR LIMIT=25] -->
+    <string name="pref_label_most_popular">Most Popular</string>
+    <!-- Label for Top Rated option in movie type list preference [CHAR LIMIT=25] -->
+    <string name="pref_label_top_rated">Top Rated</string>
+    <string name="pref_label_favorites">Favorite Movies</string>
+    <!-- Value in SharedPreferences for Top Rated option [CHAR LIMIT=NONE] -->
+    <string name="pref_value_top_rated" translatable="false">top_rated</string>
+    <string name="pref_value_favorites" translatable="false">favorites</string>
+    <string name="image_size">w185</string>
+    <string name="image_path">http://image.tmdb.org/t/p/</string>
+    <string name="content_authority">com.themartinsierra.popularmovieapp_stage2</string>
+    <string name="button_add_favorite">Add To Favorite Movies</string>
+    <string name="button_remove_favorite">Remove From Favorite Movies</string>
+    <string name="trailers">Trailers: </string>
+    <string name="reviews">Reviews: </string>
+    <string name="youtube">"http://www.youtube.com/watch?v="</string>
+    <string name="author_name">Author: </string>
+    <string name="no_reviews">No reviews for this movies</string>
+    <string name="no_trailers">No trailers for this movies</string>
+</resources>
